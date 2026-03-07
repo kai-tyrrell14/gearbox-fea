@@ -1,1 +1,40 @@
+# Motion Verification
 
+## Objective
+A motion study was conducted to verify the correct transmission of motion through the two-stage gearbox. The objective was to confirm that gear relationships, shaft rotation, and overall reduction ratio behave as expected.
+
+---
+
+## Simulation Setup
+The gearbox assembly was configured using SolidWorks gear mates to define the relationship between meshing gears. A motor input was applied to the input shaft to simulate rotational motion through the drivetrain.
+
+The assembly was set to flexible where required to allow motion to propagate through the gear stages.
+
+---
+
+## Motion Behaviour
+When the input shaft was rotated, motion propagated correctly through both gear stages. Each gear pair rotated according to the defined gear mate relationships, and the intermediate and output shafts rotated smoothly without interference or constraint issues.
+
+The motion study confirmed that all components were properly constrained and that the assembly behaves as intended.
+
+---
+
+## Ratio Verification
+The motion simulation confirmed the expected gear reduction behaviour.
+
+Stage 1:
+12T driver → 60T driven = 5:1 reduction
+
+Stage 2:
+15T driver → 60T driven = 4:1 reduction
+
+Total gearbox reduction:
+
+5 × 4 = 20:1
+
+This means the output shaft rotates twenty times slower than the input shaft.
+
+---
+
+## Conclusion
+The motion study verified that the gearbox assembly transmits motion correctly through both gear stages and produces the intended 20:1 reduction ratio. This confirms that the gear mates, assembly constraints, and drivetrain layout function as designed.
