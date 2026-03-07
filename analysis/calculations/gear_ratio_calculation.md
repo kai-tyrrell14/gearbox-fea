@@ -1,50 +1,29 @@
 # Gear Ratio Calculation
-
 ## Design Objective
-The gearbox was designed to reduce rotational speed and increase output torque for robotic actuation applications. A two-stage spur gear arrangement was selected to achieve a high overall reduction ratio while maintaining compact packaging.
-
----
+The gearbox was designed to reduce rotational speed and increase output torque for robotic actuation applications. A two-stage spur gear system was chosen to achieve the required reduction.
 
 ## Stage 1 Ratio
-Stage 1 consists of a 12-tooth driver gear and a 60-tooth driven gear.
+Stage 1 consists of a 12 tooth gear and a 60 tooth driven gear.
 
-\[
-\text{Stage 1 Ratio} = \frac{\text{Driven Gear Teeth}}{\text{Driver Gear Teeth}} = \frac{60}{12} = 5:1
-\]
+Stage 1 ratio: (60 teeth)/(12 teeth) = 5:1 
 
-This means the intermediate shaft rotates at one-fifth of the input speed, while transmitted torque is increased by a factor of approximately five (neglecting losses).
-
----
+This results in an output speed of 1/5th the input speed and an output torque of 5 times the input.
 
 ## Stage 2 Ratio
-Stage 2 consists of a 15-tooth driver gear and a 60-tooth driven gear.
+Stage 2 consists of a 15 tooth gear and a 60 tooth driven gear.
 
-\[
-\text{Stage 2 Ratio} = \frac{\text{Driven Gear Teeth}}{\text{Driver Gear Teeth}} = \frac{60}{15} = 4:1
-\]
+Stage 2 ratio: (60 teeth)/(15 teeth) = 4:1 
 
-This further reduces rotational speed and increases torque at the output shaft.
-
----
+This results in an output speed of 1/4th the input speed and an output torque of 4 times the input.
 
 ## Total Gearbox Ratio
 The total gearbox reduction ratio is the product of the two stage ratios.
 
-\[
-\text{Total Ratio} = 5 \times 4 = 20:1
-\]
+5 x 4 = 20:1
 
 This means the output shaft rotates twenty times slower than the input shaft.
 
 For example, if the input shaft rotates at 3000 rpm:
 
-\[
-\text{Output Speed} = \frac{3000}{20} = 150 \text{ rpm}
-\]
+Output speed: 3000/20 = 150 RPM
 
----
-
-## Engineering Interpretation
-A two-stage reduction was selected to achieve a large overall ratio without requiring impractically large gears in a single stage. This configuration provides increased torque and reduced output speed, making it suitable for robotic systems that require controlled motion and higher load capability.
-
-The selected 20:1 reduction ratio is appropriate for compact mechatronic applications where motor speed must be converted into usable actuator torque.
