@@ -1,31 +1,21 @@
 # Two Stage Spur Gearbox
-
-A SolidWorks-designed two-stage spur gear reduction gearbox intended for robotic actuation and mechanical drivetrain applications. The gearbox reduces high-speed motor rotation while increasing output torque through a compact multi-stage gear transmission.
-
----
+This project involves a SolidWorks designed two stage reduction gearbox intended for robotic actuation applications. The gearbox reduces high speed motor input and increases torque whilst maintaining a compact size. Finite Element Analysis was also performed to ensure the systems reliability under the expected loading conditions.
 
 # 1. System Overview
+![Motion Animation](media/motion_animation.gif)
 
-![Gearbox Render](media/hero_render.png)
-
-This render shows the complete gearbox assembly including the spur gears, shafts, bearings, and housing. The system is designed to convert high-speed motor rotation into lower speed, higher torque output suitable for robotic and mechatronic systems.
-
----
+This demonstrates the motion of the gearbox including gears, shafts and bearings.
 
 # 2. Features
-
-• Two-stage spur gear reduction gearbox  
-• 20:1 total reduction ratio  
-• Compact parallel shaft drivetrain layout  
-• Fully modelled mechanical assembly in SolidWorks  
-• Motion simulation for kinematic validation  
-• Finite Element Analysis for structural evaluation  
-• Engineering drawings and exploded assembly documentation  
-
----
+- Two stage spur gear reduction gearbox
+- 20:1 overall reduction ratio  
+- Compact and accurate gear train layout  
+- Fully modelled mechanical assembly in SolidWorks  
+- Motion study for kinematic verification  
+- Finite Element Analysis for structural everification  
+- Engineering drawings and exploded assembly documentation  
 
 # 3. Hardware
-
 | Component | Description |
 |----------|-------------|
 | Spur Gears | Power transmission between shafts |
@@ -36,8 +26,6 @@ This render shows the complete gearbox assembly including the spur gears, shafts
 | Gearbox Housing | Structural support and component alignment |
 
 Bearings support each shaft within the housing to maintain accurate gear alignment while allowing free rotation.
-
----
 
 # 4. System Design
 
