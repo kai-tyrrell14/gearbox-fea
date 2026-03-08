@@ -58,8 +58,8 @@ Finite Element Analysis (FEA) was performed on the gear with the highest expecte
 
 # 6. Repository Structure
 An overview of the files included in this repository:
-• **'/CAD':** SolidWorks parts and assemblies  
-• **'/analysis':** Engineering calculations and validation  
-• **'/drawings':** Engineering drawings and exploded assembly  
-• **'/docs':** Project documentation
-• **'/media':** Renders, animations and analysis images  
+- **'/CAD':** SolidWorks parts and assemblies
+- **'/analysis':** Engineering calculations and validation
+- **'/drawings':** Engineering drawings and exploded assembly
+- **'/docs':** Project documentation
+- **'/media':** Renders, animations and analysis images  
