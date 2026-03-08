@@ -61,5 +61,5 @@ An overview of the files included in this repository:
 • **'/CAD':** SolidWorks parts and assemblies  
 • **'/analysis':** Engineering calculations and validation  
 • **'/drawings':** Engineering drawings and exploded assembly  
-• **'/docs':** Project documentation 
+• **'/docs':** Project documentation
 • **'/media':** Renders, animations and analysis images  
